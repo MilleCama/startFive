@@ -1,0 +1,31 @@
+@import "normalize";
+
+@import "variables";
+
+@import "small";
+
+//35em is also 560px (if basefont is 16px)
+@media only screen and (min-width: 35rem) {
+	@import "medium";
+}
+
+//64em is also 1028px (if basefont is 16px)
+@media only screen and (min-width: 64rem) {
+	@import "large";
+} 
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.cards section:hover img {
+  animation: pulse 0.6s ease-in-out;
+}
+

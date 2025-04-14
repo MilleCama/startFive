@@ -1,0 +1,29 @@
+/* NAVIGATION STUFF GOES HERE  */
+#theButton {
+  display: none;
+}
+
+#thenav {
+  grid-template-rows: 1fr;
+}
+#theNav ul, #theNav ul.open{
+  display:flex;
+  li a{
+    padding: .4rem 1rem;
+    border: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+} //end ul
+
+#navWrapper {
+  border-bottom: 1px solid $greyColor;
+}
+
+@media (min-width: 600px) {
+  .cards section {
+    flex: 1 1 calc(50% - 1.5rem);
+    max-width: calc(50% - 1.5rem);
+  }
+}

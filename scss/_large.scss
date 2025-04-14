@@ -1,0 +1,25 @@
+header, nav, main {
+    max-width: 960px;
+    margin: auto;
+}
+
+/* NAVIGATION STUFF GOES HERE  */
+
+@media (min-width: 992px) {
+    .cards section {
+      flex: 1 1 calc(25% - 1.5rem);
+      max-width: calc(25% - 1.5rem);
+    }
+  }
+  .reviewCards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+    section {
+      flex: 1 1 calc(50% - 2rem);
+      max-width: calc(50% - 2rem);
+    }
+  }
+
+  

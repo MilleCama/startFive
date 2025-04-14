@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Navigation Example</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/styles.min.css">
+
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+<!-- FavIcon-->
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png.png">
+<link rel="manifest" href="site.webmanifest">
+</head>
+
+<body>
+<div id="headerWrapper">
+	<header>
+        <a href="logo" class="logo-link">
+            <img src="images/logo1x.png" alt="logo" width="45" height="50"
+                     srcset="images/logo1x.png 1x, images/logo2x.png 2x, images/logo3x.png 3x">
+                     </a>
+
+		<span>Garden Cars Co.</span>
+	</header>
+</div><!-- end header wrapper -->
+
+    
+    
+<div id="navWrapper">
+    <nav id="theNav">
+        <button id="theButton"></button>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Trucks</a></li>
+            <li class="active"><a href="#">Cars</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+</div> <!-- end nav wrapper -->
+
+<div id="mainWrapper">
+    <main>
+        <div class="parentHero">
+            <img src="images/hero.webp" width="1200" height="500" alt="">
+            <p>Welcome to Garden Cars</p>
+        </div>
+
+        <h1>Services</h1>
+   
+        <p>Vehice servicing is one of the most important aspects of owning a vehicle! Auto servicing is vital in maintaining your fuel efficiency, dependability, drive-ability and help to increase the overall lifespan of your vehicle. Come in today for you recommended service and free inspection of all your vehicles moving pieces!</p>
+            <div class="cards">
+                <section class="tire">
+                    <img src="images/build-outline.svg" alt="">
+                    <h2>Tire Alignment</h2>
+                    <p>Tire alignment, also know as wheel alignment, can help your tires perform properly and help them last longer.</p>
+                    <button>Learn More</button>
+                </section>
+                <section class="brakes">
+                    <img src="images/alert-circle-outline.svg" alt="">
+                    <h2>Brakes</h2>
+                    <p>There are two kinds of service brakes, or the brakes that stop your vehicle while drviing: disc and drum brakes. Additionally, almost all vehicles come with emergency brakes and anti-lock brakes.</p>
+                    <button>Learn More</button>
+                </section>
+                <section class="coolant">
+                    <img src="images/thermometer-outline.svg" alt="">
+                    <h2>Coolant</h2>
+                    <p>We will check your coolant during your oil change, but if you need a more comprehensive service, we'll let you know! This is for a Coolant Service</p>
+                    <button>Learn More</button>
+                </section>
+                <section class="engine">
+                    <img src="images/water-outline.svg" alt="">
+                    <h2>Engine Oil</h2>
+                    <p>Your vehicle needs to have its oil changed because the fast-moving parts breakdown the oil and lessen its ability to absorb heat and lubricate the engine.</p>
+                    <button>Learn More</button>
+                </section>
+               
+            </div>
+            <div class="reviewWrapper">
+                <h2>Customer Reviews</h2>
+                <div class="reviewCards"></div>
+            </div>
+        </main>
+    </div>
+
+    <div id="footerWrapper">
+        <footer>
+            <p>&copy; <span id="year">2025</span> &bull; Camille Martinez</p>
+        </footer>
+    </div>
+    <script src="js/scripts.js" type="module"></script>
+</body>
+
+</html>
